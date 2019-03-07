@@ -1,0 +1,95 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'Bangers', cursive;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  font-size: 6rem
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3{
+  font-size: 2rem;
+  color: #28282B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+
+/* my css */
+	.panel {
+		height: 100vh;
+		width: 100vw;
+  
+	}
+	.panel.three {
+		margin-bottom: 400px
+	}
+
+.one {
+  background-color: #EE0400;
+}
+.two {
+  background-color: #2114F9;
+
+}
+.three {
+  background-color: white;
+}
+.chart{
+  width: 1000px;
+  height: 400px;
+  padding-top: 50px;
+}
+#name {
+  padding-left: 50px;
+}
+.outer {
+  display: flex;
+  align-items: center;
+    justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+
+}
+.content {
+  width: 100vw;
+}
+.white{
+ color: white; 
+}
+/*  svg */
+.st0{
+  fill:#EE0400;
+
+}
+
